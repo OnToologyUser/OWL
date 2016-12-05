@@ -12,42 +12,65 @@
 #    Data properties
 #################################################################
 
+###  http://madridOcio.linkeddata.com/ontologyGroup5#barrio
+:barrio rdf:type owl:DatatypeProperty ;
+        rdfs:subPropertyOf <http://www.w3.org/2006/vcard/ns#locality> .
+
+
+###  http://madridOcio.linkeddata.com/ontologyGroup5#codigoPostal
+:codigoPostal rdf:type owl:DatatypeProperty ;
+              rdfs:subPropertyOf <http://www.w3.org/2006/vcard/ns#postal-code> .
+
+
+###  http://madridOcio.linkeddata.com/ontologyGroup5#descripcion
+:descripcion rdf:type owl:DatatypeProperty ;
+             rdfs:subPropertyOf <http://www.w3.org/2006/vcard/ns#note> .
+
+
 ###  http://madridOcio.linkeddata.com/ontologyGroup5#email
 :email rdf:type owl:DatatypeProperty ;
        rdfs:subPropertyOf <http://www.w3.org/2006/vcard/ns#email> .
 
 
-###  http://madridOcio.linkeddata.com/ontologyGroup5#locality
-:locality rdf:type owl:DatatypeProperty ;
-          rdfs:subPropertyOf <http://www.w3.org/2006/vcard/ns#locality> .
+###  http://madridOcio.linkeddata.com/ontologyGroup5#localidad
+:localidad rdf:type owl:DatatypeProperty ;
+           rdfs:subPropertyOf <http://www.w3.org/2006/vcard/ns#region> .
 
 
-###  http://madridOcio.linkeddata.com/ontologyGroup5#postal-code
-:postal-code rdf:type owl:DatatypeProperty ;
-             rdfs:subPropertyOf <http://www.w3.org/2006/vcard/ns#postal-code> .
+###  http://madridOcio.linkeddata.com/ontologyGroup5#name
+:name rdf:type owl:DatatypeProperty ;
+      rdfs:subPropertyOf <http://www.w3.org/2006/vcard/ns#given-name> .
 
 
-###  http://madridOcio.linkeddata.com/ontologyGroup5#region
-:region rdf:type owl:DatatypeProperty ;
-        rdfs:subPropertyOf <http://www.w3.org/2006/vcard/ns#region> .
+###  http://madridOcio.linkeddata.com/ontologyGroup5#nombreCalle
+:nombreCalle rdf:type owl:DatatypeProperty ;
+             rdfs:subPropertyOf <http://www.w3.org/2006/vcard/ns#street-address> .
 
 
-###  http://madridOcio.linkeddata.com/ontologyGroup5#street-address
-:street-address rdf:type owl:DatatypeProperty ;
-                rdfs:subPropertyOf <http://www.w3.org/2006/vcard/ns#street-address> .
+###  http://madridOcio.linkeddata.com/ontologyGroup5#numeroCalle
+:numeroCalle rdf:type owl:DatatypeProperty ;
+             rdfs:subPropertyOf <http://www.w3.org/2006/vcard/ns#note> .
 
 
-###  http://madridOcio.linkeddata.com/ontologyGroup5#tel
-:tel rdf:type owl:DatatypeProperty ;
-     rdfs:subPropertyOf <http://www.w3.org/2006/vcard/ns#tel> .
+###  http://madridOcio.linkeddata.com/ontologyGroup5#telefono
+:telefono rdf:type owl:DatatypeProperty ;
+          rdfs:subPropertyOf <http://www.w3.org/2006/vcard/ns#tel> .
 
 
 ###  http://www.w3.org/2006/vcard/ns#email
 <http://www.w3.org/2006/vcard/ns#email> rdf:type owl:DatatypeProperty .
 
 
+###  http://www.w3.org/2006/vcard/ns#given-name
+<http://www.w3.org/2006/vcard/ns#given-name> rdf:type owl:DatatypeProperty .
+
+
 ###  http://www.w3.org/2006/vcard/ns#locality
 <http://www.w3.org/2006/vcard/ns#locality> rdf:type owl:DatatypeProperty .
+
+
+###  http://www.w3.org/2006/vcard/ns#note
+<http://www.w3.org/2006/vcard/ns#note> rdf:type owl:DatatypeProperty .
 
 
 ###  http://www.w3.org/2006/vcard/ns#postal-code
