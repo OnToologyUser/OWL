@@ -1,0 +1,22 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1501"
+node [shape = rectangle, color="orange"]; "-7b8d3f1e:158d0606d3c:-7fec" "-7b8d3f1e:158d0606d3c:-7fed" "-7b8d3f1e:158d0606d3c:-7ff3" "-7b8d3f1e:158d0606d3c:-7ff4" ; /*classes style*/
+	"NULL" -> "-7b8d3f1e:158d0606d3c:-7ff6" [ label = "owl:Prefix" ];
+	"NULL" -> "-7b8d3f1e:158d0606d3c:-7fec" [ label = "owl:Declaration" ];
+	"NULL" -> "-7b8d3f1e:158d0606d3c:-7ff9" [ label = "owl:Prefix" ];
+	"NULL" -> "-7b8d3f1e:158d0606d3c:-7fee" [ label = "owl:Declaration" ];
+	"NULL" -> "-7b8d3f1e:158d0606d3c:-7ff1" [ label = "owl:Declaration" ];
+	"NULL" -> "-7b8d3f1e:158d0606d3c:-7fed" [ label = "owl:Declaration" ];
+	"NULL" -> "-7b8d3f1e:158d0606d3c:-7ffa" [ label = "owl:Prefix" ];
+	"NULL" -> "-7b8d3f1e:158d0606d3c:-7fef" [ label = "owl:Declaration" ];
+	"NULL" -> "-7b8d3f1e:158d0606d3c:-7ffb" [ label = "owl:Prefix" ];
+	"NULL" -> "-7b8d3f1e:158d0606d3c:-7ff3" [ label = "owl:Declaration" ];
+	"NULL" -> "-7b8d3f1e:158d0606d3c:-7ff7" [ label = "owl:Prefix" ];
+	"NULL" -> "-7b8d3f1e:158d0606d3c:-7ff8" [ label = "owl:Prefix" ];
+	"NULL" -> "-7b8d3f1e:158d0606d3c:-7ff5" [ label = "owl:Declaration" ];
+	"NULL" -> "-7b8d3f1e:158d0606d3c:-7ff2" [ label = "owl:Declaration" ];
+	"NULL" -> "-7b8d3f1e:158d0606d3c:-7ff0" [ label = "owl:Declaration" ];
+	"NULL" -> "-7b8d3f1e:158d0606d3c:-7ff4" [ label = "owl:Declaration" ];
+
+}

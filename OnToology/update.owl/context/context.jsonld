@@ -1,0 +1,34 @@
+{
+  "@context" : {
+    "Bibliotecas" : {
+      "@id" : "http://madridOcio.linkeddata.com/ontologyGroup5/resources/Bibliotecas"
+    },
+    "Polideportivos" : {
+      "@id" : "http://madridOcio.linkeddata.com/ontologyGroup5/resources/Polideportivos"
+    },
+    "tel" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#tel"
+    },
+    "CentrosCulturales" : {
+      "@id" : "http://madridOcio.linkeddata.com/ontologyGroup5/resources/CentrosCulturales"
+    },
+    "postal-code" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#postal-code"
+    },
+    "email" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#email"
+    },
+    "region" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#region"
+    },
+    "locality" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#locality"
+    },
+    "Museos" : {
+      "@id" : "http://madridOcio.linkeddata.com/ontologyGroup5/resources/Museos"
+    },
+    "street-address" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#street-address"
+    }
+  }
+}
