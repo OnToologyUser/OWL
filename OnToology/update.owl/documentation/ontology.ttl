@@ -6,67 +6,67 @@
 
 []    a       owl:Ontology ;
       owl:Declaration
-              [ a       owl:DataProperty ;
-                <IRI>   "http://www.w3.org/2006/vcard/ns#street-address"
-              ] ;
-      owl:Declaration
-              [ a       owl:DataProperty ;
-                <IRI>   "http://www.w3.org/2006/vcard/ns#tel"
-              ] ;
-      owl:Declaration
-              [ a       owl:DataProperty ;
-                <IRI>   "http://www.w3.org/2006/vcard/ns#postal-code"
+              [ a       owl:Class ;
+                <IRI>   "/resources/Bibliotecas"
               ] ;
       owl:Declaration
               [ a       owl:Class ;
                 <IRI>   "/resources/Polideportivos"
               ] ;
       owl:Declaration
-              [ a       owl:Class ;
-                <IRI>   "/resources/Bibliotecas"
+              [ a       owl:DataProperty ;
+                <IRI>   "http://www.w3.org/2006/vcard/ns#postal-code"
               ] ;
       owl:Declaration
               [ a       owl:DataProperty ;
-                <IRI>   "http://www.w3.org/2006/vcard/ns#email"
-              ] ;
-      owl:Declaration
-              [ a       owl:DataProperty ;
-                <IRI>   "http://www.w3.org/2006/vcard/ns#locality"
+                <IRI>   "http://www.w3.org/2006/vcard/ns#tel"
               ] ;
       owl:Declaration
               [ a       owl:Class ;
                 <IRI>   "/resources/CentrosCulturales"
               ] ;
       owl:Declaration
-              [ a       owl:Class ;
-                <IRI>   "/resources/Museos"
-              ] ;
-      owl:Declaration
               [ a       owl:DataProperty ;
                 <IRI>   "http://www.w3.org/2006/vcard/ns#region"
               ] ;
-      owl:Prefix
-              [ <IRI>   "http://madridOcio.linkeddata.com/ontologyGroup5#" ;
-                <name>  ""
+      owl:Declaration
+              [ a       owl:DataProperty ;
+                <IRI>   "http://www.w3.org/2006/vcard/ns#street-address"
+              ] ;
+      owl:Declaration
+              [ a       owl:DataProperty ;
+                <IRI>   "http://www.w3.org/2006/vcard/ns#locality"
+              ] ;
+      owl:Declaration
+              [ a       owl:DataProperty ;
+                <IRI>   "http://www.w3.org/2006/vcard/ns#email"
+              ] ;
+      owl:Declaration
+              [ a       owl:Class ;
+                <IRI>   "/resources/Museos"
               ] ;
       owl:Prefix
-              [ <IRI>   "http://www.w3.org/1999/02/22-rdf-syntax-ns#" ;
-                <name>  "rdf"
+              [ <IRI>   "http://www.w3.org/2000/01/rdf-schema#" ;
+                <name>  "rdfs"
               ] ;
       owl:Prefix
               [ <IRI>   "http://www.w3.org/2001/XMLSchema#" ;
                 <name>  "xsd"
               ] ;
       owl:Prefix
+              [ <IRI>   "http://www.w3.org/1999/02/22-rdf-syntax-ns#" ;
+                <name>  "rdf"
+              ] ;
+      owl:Prefix
               [ <IRI>   "http://www.w3.org/XML/1998/namespace" ;
                 <name>  "xml"
               ] ;
       owl:Prefix
-              [ <IRI>   "http://www.w3.org/2002/07/owl#" ;
-                <name>  "owl"
+              [ <IRI>   "http://madridOcio.linkeddata.com/ontologyGroup5#" ;
+                <name>  ""
               ] ;
       owl:Prefix
-              [ <IRI>   "http://www.w3.org/2000/01/rdf-schema#" ;
-                <name>  "rdfs"
+              [ <IRI>   "http://www.w3.org/2002/07/owl#" ;
+                <name>  "owl"
               ] ;
       <ontologyIRI> "http://madridOcio.linkeddata.com/ontologyGroup5" .
