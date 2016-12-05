@@ -1,0 +1,98 @@
+{
+  "@context" : {
+    "Bibliotecas" : {
+      "@id" : "http://madridOcio.linkeddata.com/ontologyGroup5/resources/Bibliotecas"
+    },
+    "Polideportivos" : {
+      "@id" : "http://madridOcio.linkeddata.com/ontologyGroup5/resources/Polideportivos"
+    },
+    "url" : {
+      "@id" : "http://madridOcio.linkeddata.com/ontologyGroup5#url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#anyURI"
+    },
+    "codigoPostal" : {
+      "@id" : "http://madridOcio.linkeddata.com/ontologyGroup5#codigoPostal",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "topDataProperty" : {
+      "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+    },
+    "fax" : {
+      "@id" : "http://madridOcio.linkeddata.com/ontologyGroup5#fax"
+    },
+    "distrito" : {
+      "@id" : "http://madridOcio.linkeddata.com/ontologyGroup5#distrito",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "longitud" : {
+      "@id" : "http://madridOcio.linkeddata.com/ontologyGroup5#longitud",
+      "@type" : "http://www.w3.org/2001/XMLSchema#float"
+    },
+    "numeroCalle" : {
+      "@id" : "http://madridOcio.linkeddata.com/ontologyGroup5#numeroCalle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "nombre" : {
+      "@id" : "http://madridOcio.linkeddata.com/ontologyGroup5#nombre",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "tipoCalle" : {
+      "@id" : "http://madridOcio.linkeddata.com/ontologyGroup5#tipoCalle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "CentrosCulturales" : {
+      "@id" : "http://madridOcio.linkeddata.com/ontologyGroup5/resources/CentrosCulturales"
+    },
+    "email" : {
+      "@id" : "http://madridOcio.linkeddata.com/ontologyGroup5#email",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "provincia" : {
+      "@id" : "http://madridOcio.linkeddata.com/ontologyGroup5#provincia",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "equipamiento" : {
+      "@id" : "http://madridOcio.linkeddata.com/ontologyGroup5#equipamiento",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "telefono" : {
+      "@id" : "http://madridOcio.linkeddata.com/ontologyGroup5#telefono",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "transportePublico" : {
+      "@id" : "http://madridOcio.linkeddata.com/ontologyGroup5#transportePublico",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "barrio" : {
+      "@id" : "http://madridOcio.linkeddata.com/ontologyGroup5#barrio",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "descripcion" : {
+      "@id" : "http://madridOcio.linkeddata.com/ontologyGroup5#descripcion",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "accesoDiscapacitados" : {
+      "@id" : "http://madridOcio.linkeddata.com/ontologyGroup5#accesoDiscapacitados",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "latitud" : {
+      "@id" : "http://madridOcio.linkeddata.com/ontologyGroup5#latitud",
+      "@type" : "http://www.w3.org/2001/XMLSchema#float"
+    },
+    "localidad" : {
+      "@id" : "http://madridOcio.linkeddata.com/ontologyGroup5#localidad",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "nombreCalle" : {
+      "@id" : "http://madridOcio.linkeddata.com/ontologyGroup5#nombreCalle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Museos" : {
+      "@id" : "http://madridOcio.linkeddata.com/ontologyGroup5/resources/Museos"
+    },
+    "horario" : {
+      "@id" : "http://madridOcio.linkeddata.com/ontologyGroup5#horario",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    }
+  }
+}
